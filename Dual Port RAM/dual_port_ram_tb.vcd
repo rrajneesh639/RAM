@@ -1,0 +1,89 @@
+$date
+	Mon Jul 15 16:59:13 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module dual_port_ram_tb $end
+$var wire 8 ! q_b [7:0] $end
+$var wire 8 " q_a [7:0] $end
+$var reg 6 # addr_a [5:0] $end
+$var reg 6 $ addr_b [5:0] $end
+$var reg 1 % clock $end
+$var reg 8 & data_a [7:0] $end
+$var reg 8 ' data_b [7:0] $end
+$var reg 1 ( we_a $end
+$var reg 1 ) we_b $end
+$scope module dpr1 $end
+$var wire 6 * addr_a [5:0] $end
+$var wire 6 + addr_b [5:0] $end
+$var wire 1 % clock $end
+$var wire 8 , data_in_a [7:0] $end
+$var wire 8 - data_in_b [7:0] $end
+$var wire 1 ( we_a $end
+$var wire 1 ) we_b $end
+$var reg 8 . q_a [7:0] $end
+$var reg 8 / q_b [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx /
+bx .
+b1000100 -
+b110011 ,
+b1 +
+b0 *
+1)
+1(
+b1000100 '
+b110011 &
+1%
+b1 $
+b0 #
+bx "
+bx !
+$end
+#5
+0%
+#10
+b1000100 !
+b1000100 /
+1%
+0)
+b10 #
+b10 *
+b1010101 &
+b1010101 ,
+#15
+0%
+#20
+b1010101 "
+b1010101 .
+bx !
+bx /
+1%
+0(
+b11 $
+b11 +
+#25
+0%
+#30
+b1000100 "
+b1000100 .
+1%
+1)
+b10 $
+b10 +
+b1110111 '
+b1110111 -
+b1 #
+b1 *
+#35
+0%
+#40
+1%

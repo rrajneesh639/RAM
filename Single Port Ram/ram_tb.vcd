@@ -1,0 +1,73 @@
+$date
+	Mon Jul 15 15:25:09 2024
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ns
+$end
+$scope module single_port_RAM_tb $end
+$var wire 8 ! q [7:0] $end
+$var reg 6 " addr [5:0] $end
+$var reg 1 # clock $end
+$var reg 8 $ data [7:0] $end
+$var reg 1 % we $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+1%
+b1 $
+1#
+b0 "
+bx !
+$end
+#5
+0#
+#10
+1#
+b1 "
+b10 $
+#15
+0#
+#20
+1#
+b10 "
+b11 $
+#25
+0#
+#30
+b1 !
+1#
+0%
+b0 "
+#35
+0#
+#40
+b10 !
+1#
+b1 "
+#45
+0#
+#50
+b11 !
+1#
+b10 "
+#55
+0#
+#60
+1#
+1%
+b1 "
+b100 $
+#65
+0#
+#70
+b100 !
+1#
+0%
+#75
+0#
+#80
+1#
